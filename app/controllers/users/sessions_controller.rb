@@ -1,11 +1,6 @@
 class Users::SessionsController < DeviseTokenAuth::SessionsController
-  include SessionsDoc
-  include LocaleHelper
-  include SessionHelper
-
-  before_action :set_locale
+  skip_before_action :verify_authenticity_token
   before_action :authenticate_user!, only: [:keep_alive]
-  after_action :update_sessions, only: [:create, :sign_in_social]
 
   def create
     # Check
@@ -22,7 +17,7 @@ class Users::SessionsController < DeviseTokenAuth::SessionsController
       q = "#{field.to_s} = ? AND provider='email'"
 
       if ActiveRecord::Base.connection.adapter_name.downcase.starts_with? 'mysql'
-        q = "BINARY " + q
+        q = "BINARY" + q
       end
 
       @resource = resource_class.find_by(email: q_value)
