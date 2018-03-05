@@ -10,4 +10,10 @@ Rails.application.routes.draw do
     post 'auth/keep_alive', to: 'users/sessions#keep_alive'
     post 'auth/sign_in_social/:provider', to: 'users/sessions#sign_in_social'
   end
+
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :posts
+    end
+  end
 end
