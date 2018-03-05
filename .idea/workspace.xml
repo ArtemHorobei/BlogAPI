@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8689e9-778f-4112-a48e-bb096a383e76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/base_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/users/set_user_by_token.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/session_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/post.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/posts/create.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/posts/show.json.jbuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/api/v1/posts/update.json.jbuilder" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/63c7be1e-eb14-4677-8f2a-186eb0eff64a.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/sessions/create.jbuilder" afterPath="$PROJECT_DIR$/app/views/users/sessions/create.jbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -129,8 +111,18 @@
       <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json.jbuilder" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,7 +208,6 @@
         <option value="$PROJECT_DIR$/app/views/users/sessions/create.jbuilder" />
         <option value="$PROJECT_DIR$/app/controllers/users/token_validations_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180228131749_create_posts.rb" />
-        <option value="$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/users/set_user_by_token.rb" />
@@ -224,6 +215,7 @@
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/views/api/v1/posts/create.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder" />
       </list>
     </option>
   </component>
@@ -865,7 +857,7 @@
       <workItem from="1520060022586" duration="601000" />
       <workItem from="1520063883587" duration="350000" />
       <workItem from="1520243027078" duration="2456000" />
-      <workItem from="1520255180481" duration="4790000" />
+      <workItem from="1520255180481" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="Add user and devise">
       <created>1519055172278</created>
@@ -909,11 +901,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519227422952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add create post method">
+      <created>1520260435587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520260435587</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53129000" />
+    <option name="totallyTimeSpent" value="53202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
@@ -949,7 +948,8 @@
     <MESSAGE value="Add user and devise" />
     <MESSAGE value="In progress" />
     <MESSAGE value="Add auth methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add auth methods" />
+    <MESSAGE value="Add create post method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add create post method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1196,13 +1196,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/api/v1/posts/change_sort.json.jbuilder" />
-    <entry file="file://$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1368,10 +1361,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/api/v1/posts/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
